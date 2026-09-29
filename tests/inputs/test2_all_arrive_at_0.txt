@@ -1,0 +1,5 @@
+# All tasks arrive at time 0; B and D share priority 1 (tie -> input order)
+A  0  6  3
+B  0  2  1
+C  0  4  2
+D  0  3  1

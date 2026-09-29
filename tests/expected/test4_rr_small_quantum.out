@@ -1,0 +1,130 @@
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: File path: 
+Task      Arrival  Burst  Priority
+P1              0      3         1
+P2              0      3         2
+P3              1      2         1
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: Time quantum (>= 1): 
+========================================
+ FCFS
+========================================
+Execution order: P1 -> P2 -> P3
+
+Gantt chart:
+| P1 | P2 | P3 |
+0    3    6    8
+
+Task      Arrival  Burst  Priority    CT   TAT    WT
+P1              0      3         1     3     3     0
+P2              0      3         2     6     6     3
+P3              1      2         1     8     7     5
+
+Average Waiting Time    : 2.67
+Average Turnaround Time : 5.33
+CPU Utilization         : 100.00%
+
+========================================
+ SJF
+========================================
+Execution order: P1 -> P3 -> P2
+
+Gantt chart:
+| P1 | P3 | P2 |
+0    3    5    8
+
+Task      Arrival  Burst  Priority    CT   TAT    WT
+P1              0      3         1     3     3     0
+P2              0      3         2     8     8     5
+P3              1      2         1     5     4     2
+
+Average Waiting Time    : 2.33
+Average Turnaround Time : 5.00
+CPU Utilization         : 100.00%
+
+========================================
+ Round Robin (Time Quantum = 1)
+========================================
+Execution order: P1 -> P2 -> P3 -> P1 -> P2 -> P3 -> P1 -> P2
+
+Gantt chart:
+| P1 | P2 | P3 | P1 | P2 | P3 | P1 | P2 |
+0    1    2    3    4    5    6    7    8
+
+Task      Arrival  Burst  Priority    CT   TAT    WT
+P1              0      3         1     7     7     4
+P2              0      3         2     8     8     5
+P3              1      2         1     6     5     3
+
+Average Waiting Time    : 4.00
+Average Turnaround Time : 6.67
+CPU Utilization         : 100.00%
+
+========================================
+ Priority
+========================================
+Execution order: P1 -> P3 -> P2
+
+Gantt chart:
+| P1 | P3 | P2 |
+0    3    5    8
+
+Task      Arrival  Burst  Priority    CT   TAT    WT
+P1              0      3         1     3     3     0
+P2              0      3         2     8     8     5
+P3              1      2         1     5     4     2
+
+Average Waiting Time    : 2.33
+Average Turnaround Time : 5.00
+CPU Utilization         : 100.00%
+
+========================================
+ Comparison
+========================================
+Algorithm       Avg WT      Avg TAT     CPU Utilization
+---------------------------------------------------------
+FCFS            2.67        5.33        100.00%
+SJF             2.33        5.00        100.00%
+Round Robin     4.00        6.67        100.00%
+Priority        2.33        5.00        100.00%
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: Goodbye.

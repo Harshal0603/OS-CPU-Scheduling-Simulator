@@ -1,0 +1,61 @@
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: Please enter a valid whole number.
+Choice: Invalid choice. Please pick a number from 1 to 8.
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: No tasks loaded yet. Use option 1 or 2 first.
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: File path: Could not open file: no_such_file.txt
+
+========================================
+ Embedded OS Task Scheduler Simulator
+========================================
+
+1. Enter Tasks
+2. Load Tasks from File
+3. Run FCFS
+4. Run SJF
+5. Run Round Robin
+6. Run Priority Scheduling
+7. Run All Algorithms
+8. Exit
+
+Choice: Goodbye.
